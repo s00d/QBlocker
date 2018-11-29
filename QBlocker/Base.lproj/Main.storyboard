@@ -490,6 +490,15 @@
                                             <menuItem title="Only use" id="HAv-aU-ig3"/>
                                         </items>
                                     </menu>
+                                    <connections>
+                                        <binding destination="FMf-NB-J6F" name="selectedIndex" keyPath="values.listMode" id="R4A-P9-Yuz">
+                                            <dictionary key="options">
+                                                <bool key="NSAllowsEditingMultipleValuesSelection" value="NO"/>
+                                                <bool key="NSConditionallySetsEnabled" value="NO"/>
+                                                <bool key="NSRaisesForNotApplicableKeys" value="NO"/>
+                                            </dictionary>
+                                        </binding>
+                                    </connections>
                                 </popUpButtonCell>
                             </popUpButton>
                         </subviews>
