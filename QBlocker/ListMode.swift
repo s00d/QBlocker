@@ -13,8 +13,4 @@ enum ListMode: Int {
     static var selected: ListMode {
         return ListMode(rawValue: UserDefaults.standard.integer(forKey: "listMode")) ?? .whitelist
     }
-    
-    func select() {
-        UserDefaults.standard.set(rawValue, forKey: "listMode")
-    }
 }
