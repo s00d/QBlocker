@@ -43,8 +43,9 @@ private func keyDownCallback(proxy: CGEventTapProxy, type: CGEventType, event: C
     // Check if the current app is in the list
     if let bundleId = app.bundleIdentifier {
         let isIdentifierListed = KeyListener.shared.listedBundleIdentifiers.contains(bundleId)
-        print("\(ListMode.selected)")
-        switch (ListMode.selected, isIdentifierListed) {
+        let listMode = KeyListener.shared.listMode
+        print("\(listMode)")
+        switch (listMode, isIdentifierListed) {
         case (.blacklist, true), (.whitelist, false):
             print("App is excluded")
             return Unmanaged<CGEvent>.passUnretained(event)
@@ -116,6 +117,10 @@ class KeyListener {
     /// How long the Q key needs to be held before you can quit
     static var delay: Int {
         return UserDefaults.standard.integer(forKey: "delay") 
+    }
+    
+    var listMode: ListMode {
+        return ListMode(rawValue: UserDefaults.standard.integer(forKey: "listMode")) ?? .whitelist
     }
     
     /// Reference to our default Realm

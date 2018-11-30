@@ -9,8 +9,4 @@
 enum ListMode: Int {
     case blacklist = 0
     case whitelist = 1
-    
-    static var selected: ListMode {
-        return ListMode(rawValue: UserDefaults.standard.integer(forKey: "listMode")) ?? .whitelist
-    }
 }
