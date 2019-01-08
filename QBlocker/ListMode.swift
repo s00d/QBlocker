@@ -7,14 +7,6 @@
 //
 
 enum ListMode: Int {
-    case Blacklist = 0
-    case Whitelist = 1
-    
-    static var selectedMode: ListMode {
-        return ListMode(rawValue: NSUserDefaults.standardUserDefaults().integerForKey("listMode")) ?? .Whitelist
-    }
-    
-    func select() {
-        NSUserDefaults.standardUserDefaults().setInteger(self.rawValue, forKey: "listMode")
-    }
+    case blacklist = 0
+    case whitelist = 1
 }
