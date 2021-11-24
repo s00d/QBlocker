@@ -6,6 +6,7 @@
 //  Copyright © 2016 Cocoon Development Ltd. All rights reserved.
 //
 
+import Foundation
 import CoreServices
 
 /**
@@ -27,7 +28,7 @@ struct AtLogin {
             return nil
         }
         
-        let loginItems = LSSharedFileListCopySnapshot(loginItemsRef.takeRetainedValue(), nil).takeRetainedValue()
+        let loginItems = LSSharedFileListCopySnapshot(loginItemsRef.takeRetainedValue(), nil)!.takeRetainedValue()
         for item in loginItems as NSArray {
             
             // Ensure that the item is a LSSharedFileListItem
@@ -36,11 +37,14 @@ struct AtLogin {
             }
             
             var error: Unmanaged<CFError>?
-            let itemUrl = LSSharedFileListItemCopyResolvedURL((item as! LSSharedFileListItem), 0, &error).takeRetainedValue() as URL
-            
-            if itemUrl == appUrl {
-                return (item as! LSSharedFileListItem)
+            let select_item = LSSharedFileListItemCopyResolvedURL((item as! LSSharedFileListItem), 0, &error);
+            if select_item != nil {
+                let itemUrl = select_item!.takeRetainedValue() as URL
+                if itemUrl == appUrl {
+                    return (item as! LSSharedFileListItem)
+                }
             }
+            
             
         }
         
@@ -57,7 +61,7 @@ struct AtLogin {
         }
         
         if enabled { // remove it from the startup
-            LSSharedFileListItemRemove(loginItems.takeRetainedValue(), launchItem)
+            LSSharedFileListItemRemove(loginItems.takeRetainedValue(), launchItem!)
         } else { // add it to the startup
             let appUrl = URL(fileURLWithPath: Bundle.main.bundlePath)
             LSSharedFileListInsertItemURL(loginItems.takeRetainedValue(), kLSSharedFileListItemBeforeFirst.takeUnretainedValue(), nil, nil, appUrl as CFURL, nil, nil)

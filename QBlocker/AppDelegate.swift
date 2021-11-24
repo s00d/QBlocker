@@ -36,9 +36,6 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     // MARK: - NSApplicationDelegate
     
     func applicationDidFinishLaunching(_ notification: Notification) {
-        
-        setupDevMate()
-        
         let promptFlag = kAXTrustedCheckOptionPrompt.takeRetainedValue()
         let myDict = [promptFlag: false] as CFDictionary
         if AXIsProcessTrustedWithOptions(myDict) {
@@ -85,16 +82,6 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     func showPreferencesWindow() {
         NSApplication.shared.activate(ignoringOtherApps: true)
         preferencesWindowController.showWindow(nil)
-    }
-
-    /**
-     Setup the devmate tracker, issues and updater
-     */
-    func setupDevMate() {
-        DevMateKit.sendTrackingReport(nil, delegate: nil)
-        DevMateKit.setupIssuesController(nil, reportingUnhandledIssues: true)
-        DM_SUUpdater.shared().automaticallyChecksForUpdates = true
-        DM_SUUpdater.shared().automaticallyDownloadsUpdates = true
     }
 
 }

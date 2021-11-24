@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		07F0E51805F533AB1219CC1A /* Pods_QBlocker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AE2D0BFC44767B8D2FE86C2 /* Pods_QBlocker.framework */; };
 		13FA35AC1CF623C400A29767 /* ListMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FA35AB1CF623C400A29767 /* ListMode.swift */; };
 		280140151CDA9D5200BC2E78 /* AtLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280140141CDA9D5200BC2E78 /* AtLogin.swift */; };
 		2832CA361CD688E9001D3373 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2832CA351CD688E9001D3373 /* AppDelegate.swift */; };
@@ -30,13 +29,16 @@
 		28DEC8041CD950450012B5E3 /* HUDAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DEC8031CD950450012B5E3 /* HUDAlert.swift */; };
 		28DEC8061CD954EA0012B5E3 /* HUDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DEC8051CD954EA0012B5E3 /* HUDView.swift */; };
 		28F40A711CFB61EB006719C8 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F40A701CFB61EB006719C8 /* TabBarController.swift */; };
+		650B229F36904C95355CC002 /* Pods_QBlocker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AE2D0BFC44767B8D2FE86C2 /* Pods_QBlocker.framework */; };
 		B1E907CE21AF8B460074B5DB /* CocoaSwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E907CD21AF8B460074B5DB /* CocoaSwiftSupport.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0848F1E9302E687DB76CB90E /* Pods-QBlocker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QBlocker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QBlocker/Pods-QBlocker.debug.xcconfig"; sourceTree = "<group>"; };
+		0FC936E46661C68080474CC2 /* Pods-QBlocker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QBlocker.release.xcconfig"; path = "Pods/Target Support Files/Pods-QBlocker/Pods-QBlocker.release.xcconfig"; sourceTree = "<group>"; };
 		13FA35AB1CF623C400A29767 /* ListMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListMode.swift; sourceTree = "<group>"; };
 		280140141CDA9D5200BC2E78 /* AtLogin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AtLogin.swift; sourceTree = "<group>"; };
-		2832CA321CD688E9001D3373 /* QBlocker 1.3 beta 1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "QBlocker 1.3 beta 1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2832CA321CD688E9001D3373 /* QBlocker 1.4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "QBlocker 1.4.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2832CA351CD688E9001D3373 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2832CA391CD688E9001D3373 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2832CA3C1CD688E9001D3373 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -59,9 +61,7 @@
 		28DEC8031CD950450012B5E3 /* HUDAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HUDAlert.swift; sourceTree = "<group>"; };
 		28DEC8051CD954EA0012B5E3 /* HUDView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HUDView.swift; sourceTree = "<group>"; };
 		28F40A701CFB61EB006719C8 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
-		55B461F5EE3BE302188BAC0C /* Pods-QBlocker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QBlocker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QBlocker/Pods-QBlocker.debug.xcconfig"; sourceTree = "<group>"; };
 		9AE2D0BFC44767B8D2FE86C2 /* Pods_QBlocker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QBlocker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A3F762D47D17E2933604A226 /* Pods-QBlocker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QBlocker.release.xcconfig"; path = "Pods/Target Support Files/Pods-QBlocker/Pods-QBlocker.release.xcconfig"; sourceTree = "<group>"; };
 		B12B3DD321AEF3AC00BAE6B6 /* QBlocker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = QBlocker.entitlements; sourceTree = "<group>"; };
 		B1E907CD21AF8B460074B5DB /* CocoaSwiftSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocoaSwiftSupport.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -71,7 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07F0E51805F533AB1219CC1A /* Pods_QBlocker.framework in Frameworks */,
+				650B229F36904C95355CC002 /* Pods_QBlocker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,7 +111,7 @@
 		2832CA331CD688E9001D3373 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2832CA321CD688E9001D3373 /* QBlocker 1.3 beta 1.app */,
+				2832CA321CD688E9001D3373 /* QBlocker 1.4.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -172,8 +172,8 @@
 		67690C1FE916FDD1AE76C543 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				55B461F5EE3BE302188BAC0C /* Pods-QBlocker.debug.xcconfig */,
-				A3F762D47D17E2933604A226 /* Pods-QBlocker.release.xcconfig */,
+				0848F1E9302E687DB76CB90E /* Pods-QBlocker.debug.xcconfig */,
+				0FC936E46661C68080474CC2 /* Pods-QBlocker.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -198,7 +198,6 @@
 				2832CA2F1CD688E9001D3373 /* Frameworks */,
 				2832CA301CD688E9001D3373 /* Resources */,
 				A029F5A304AA443AB8C88A1B /* [CP] Embed Pods Frameworks */,
-				9F8D02250EDD9278A6FB76B5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -206,7 +205,7 @@
 			);
 			name = QBlocker;
 			productName = QBlocker;
-			productReference = 2832CA321CD688E9001D3373 /* QBlocker 1.3 beta 1.app */;
+			productReference = 2832CA321CD688E9001D3373 /* QBlocker 1.4.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -216,12 +215,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 1010;
+				LastUpgradeCheck = 1310;
 				ORGANIZATIONNAME = "Cocoon Development Ltd";
 				TargetAttributes = {
 					2832CA311CD688E9001D3373 = {
 						CreatedOnToolsVersion = 7.3;
-						DevelopmentTeam = 89282N6UM7;
+						DevelopmentTeam = WXS9GV3T26;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.HardenedRuntime = {
@@ -236,7 +235,7 @@
 			};
 			buildConfigurationList = 2832CA2D1CD688E8001D3373 /* Build configuration list for PBXProject "QBlocker" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -288,54 +287,26 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9F8D02250EDD9278A6FB76B5 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-QBlocker/Pods-QBlocker-resources.sh",
-				"${PODS_ROOT}/DevMateKit/DevMateKit.framework",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/DevMateKit.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QBlocker/Pods-QBlocker-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		A029F5A304AA443AB8C88A1B /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-QBlocker/Pods-QBlocker-frameworks.sh",
-				"${PODS_ROOT}/DevMateKit/DevMateKit.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-QBlocker/Pods-QBlocker-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
 				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SRTabBarController/SRTabBarController.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DevMateKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SRTabBarController.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QBlocker/Pods-QBlocker-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QBlocker/Pods-QBlocker-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -405,6 +376,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -429,7 +401,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
@@ -461,6 +433,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -479,8 +452,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_VERSION = 4.2;
@@ -489,19 +463,22 @@
 		};
 		2832CA421CD688E9001D3373 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 55B461F5EE3BE302188BAC0C /* Pods-QBlocker.debug.xcconfig */;
+			baseConfigurationReference = 0848F1E9302E687DB76CB90E /* Pods-QBlocker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 89282N6UM7;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WXS9GV3T26;
+				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = QBlocker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MARKETING_VERSION = 1.4;
 				PRODUCT_BUNDLE_IDENTIFIER = uk.co.wearecocoon.QBlocker;
-				PRODUCT_NAME = "$(TARGET_NAME) 1.3 beta 1";
+				PRODUCT_NAME = "$(TARGET_NAME) 1.4";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/QBlocker/Bridge.h";
 			};
@@ -509,19 +486,22 @@
 		};
 		2832CA431CD688E9001D3373 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A3F762D47D17E2933604A226 /* Pods-QBlocker.release.xcconfig */;
+			baseConfigurationReference = 0FC936E46661C68080474CC2 /* Pods-QBlocker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 89282N6UM7;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WXS9GV3T26;
+				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = QBlocker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MARKETING_VERSION = 1.4;
 				PRODUCT_BUNDLE_IDENTIFIER = uk.co.wearecocoon.QBlocker;
-				PRODUCT_NAME = "$(TARGET_NAME) 1.3 beta 1";
+				PRODUCT_NAME = "$(TARGET_NAME) 1.4";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/QBlocker/Bridge.h";
 			};
