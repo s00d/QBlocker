@@ -2,6 +2,18 @@
 
 updated deps and clear code!
 
+## Alternative Implementation
+
+If you're looking for a more comprehensive solution that includes QBlocker functionality along with text transformation features, check out **[Tray Lang](https://github.com/s00d/tray-lang)** - a macOS app that combines QBlocker protection with automatic keyboard layout switching and text transformation between Russian/English layouts.
+
+**Tray Lang Features:**
+- ✅ QBlocker functionality (hold Cmd+Q to quit)
+- ✅ Text transformation between keyboard layouts  
+- ✅ Customizable hotkeys
+- ✅ Application exclusions
+- ✅ Visual feedback with HUD notifications
+- ✅ System tray integration
+
 # QBlocker
 
 QBlocker stops you from accidentally quitting an app when you actually meant to close the window. It works by blocking the default CMD + Q keyboard shortcut and forcing you to hold it down to quit.
